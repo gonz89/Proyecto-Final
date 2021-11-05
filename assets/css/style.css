@@ -1,12 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
-.logo-viajes {
-  width: 2em;
+hr {
+  color: cyan;
+  size: 10px;
+  opacity: 100%;
 }
