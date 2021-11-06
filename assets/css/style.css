@@ -6,6 +6,7 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 hr {
@@ -16,4 +17,8 @@ hr {
 
 .white {
   color: white;
+}
+
+.texto-logo {
+  font-size: 1.5rem;
 }

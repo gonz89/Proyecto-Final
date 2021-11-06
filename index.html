@@ -38,13 +38,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
+                        <a class="nav-link active" aria-current="page" href="#quienes-somos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Destacados</a>
+                        <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -81,12 +81,12 @@
     </header>
 
     <!--Articulos de interes-->
-    <section class="container my-3 d-none d-md-block d-lg-block py-4">
+    <section id="quienes-somos" class="container my-3 py-4">
 
-        <h1 class="text-center text-white my-3">Quienes Somos</h1>
+        <h3 class="text-center text-white my-3">¿Quiénes Somos?</h3>
         <hr class="my-2">
 
-        <article class="text-white text-center py-4">
+        <article class="text-white text-center py-4 d-none d-md-block d-lg-block">
             <div class="row">
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -135,26 +135,46 @@
                         atque! Cum, officiis?
                     </p>
                 </div>
-
             </div>
-
-
         </article>
+
+        <div class="container pt-5 d-grid gap-2 col-12 mx-auto">
+            <!-- Boton toast -->
+            <button type="button" class="btn btn-outline-info text-white" id="liveToastBtn">¿Quieres saber
+                más?</button>
+
+            <!--Info de toast-->
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="assets/img/viajes.svg" class="rounded me-2 " alt="toast-viajes" width="40"
+                            height="25">
+                        <strong class="me-auto">VIAJES CHILE</strong>
+                        <small>Ahora</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body text-black">
+                        ¡Deja tus datos en nuestro formulario para más información!
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
-    <section class="container my-3 py-2">
-        <h1 class=" text-center text-white my-3">Destacados</h1>
+    <section id="destacados" class="container my-3 py-2">
+        <h3 class=" text-center text-white my-3">Destacados</h3>
         <hr class="my-2">
 
-        <div class="row py-4">
+        <div class="row py-2">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex">
                 <div class="card my-4">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur earum
+                            expedita fuga explicabo. Temporibus aliquid quos natus fugiat accusantium molestiae maiores
+                            reprehenderit mollitia cupiditate corrupti deleniti est rerum, pariatur sequi!.</p>
+
                     </div>
                 </div>
             </div>
@@ -163,9 +183,10 @@
                 <div class="card my-4">
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur earum
+                            expedita fuga explicabo. Temporibus aliquid quos natus fugiat accusantium molestiae maiores
+                            reprehenderit mollitia cupiditate corrupti deleniti est rerum, pariatur sequi!.</p>
+
                     </div>
                 </div>
             </div>
@@ -174,9 +195,9 @@
                 <div class="card my-4">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur earum
+                            expedita fuga explicabo. Temporibus aliquid quos natus fugiat accusantium molestiae maiores
+                            reprehenderit mollitia cupiditate corrupti deleniti est rerum, pariatur sequi!.</p>
                     </div>
                 </div>
             </div>
@@ -185,9 +206,9 @@
                 <div class="card my-4">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur earum
+                            expedita fuga explicabo. Temporibus aliquid quos natus fugiat accusantium molestiae maiores
+                            reprehenderit mollitia cupiditate corrupti deleniti est rerum, pariatur sequi!.</p>
                     </div>
                 </div>
             </div>
@@ -196,11 +217,11 @@
         </div>
     </section>
 
-    <section class="container my-3 py-2">
-        <h1 class=" text-center text-white my-3">Contacto</h1>
+    <section id="contacto" class="container my-3 py-2">
+        <h3 class=" text-center text-white my-3">Contacto</h3>
         <hr class="my-2">
 
-        <div class="my-4">
+        <div class="my-4 py-2">
             <div data-tf-widget="KNkzEUN6" style="width:100%;height:400px;"></div>
             <script src="//embed.typeform.com/next/embed.js"></script>
         </div>
@@ -210,7 +231,7 @@
         <div class="container">
             <div class="row px-5 mt-2">
                 <div class="col-6 text-white fw-bold">
-                    <h4>VIAJES CHILE</h4>
+                    <p class="texto-logo">VIAJES CHILE</p>
 
                 </div>
                 <div class="col-6 text-end">
@@ -221,6 +242,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
 
     <!--JQUERY-->
